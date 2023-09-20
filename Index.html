@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Controle de Hidrômetros</title>
+    <style>
+        /* Estilo para o fundo da página */
+        body {
+            background-color: #e0e0e0; /* Cor de fundo cinza claro */
+            margin: 0; /* Remova margens padrão do corpo */
+        }
+
+        /* Estilo para o menu de administração */
+        #menu-admin {
+            background-color: #1e3650; /* Cor de fundo azul escuro */
+            color: #fff; /* Cor do texto branco */
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Estilo para o título do menu */
+        #menu-titulo {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        /* Estilo para os quadrados dos hidrômetros */
+        .hidrometro {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 30%; /* Defina a largura para que caibam 3 quadrados lado a lado */
+            display: inline-block; /* Exibe os quadrados em linha */
+            background-color: #fff; /* Cor de fundo branca */
+        }
+
+        /* Estilo para os botões Ligar e Desligar */
+        .btn-ligar, .btn-desligar {
+            cursor: pointer;
+            padding: 5px 10px;
+            background-color: #1e3650;
+            color: #fff;
+            border: none;
+            margin-right: 10px;
+        }
+
+        /* Estilo para ocultar as informações do hidrômetro */
+        .informacoes {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Menu de Administração -->
+    <div id="menu-admin">
+        <h1 id="menu-titulo">Painel de Controle</h1>
+    </div>
+
+    <!-- Hidrômetro 1 -->
+    <div class="hidrometro">
+        <h2>Hidrômetro 1</h2>
+        <p>Senha: 159</p>
+        <p>Status: Ativo</p>
+        <p>Consumo atual: 97 Litros</p>
+        <button class="btn-ligar">Ligar</button>
+        <button class="btn-desligar">Desligar</button>
+        <div class="informacoes">
+            <!-- Coloque mais informações aqui, se necessário -->
+        </div>
+    </div>
+
+    <!-- Hidrômetro 2 (copie e cole conforme necessário) -->
+    <div class="hidrometro">
+        <h2>Hidrômetro 2</h2>
+        <p>Senha: 123</p>
+        <p>Status: Inativo</p>
+        <p>Consumo atual: 50 Litros</p>
+        <button class="btn-ligar">Ligar</button>
+        <button class="btn-desligar">Desligar</button>
+        <div class="informacoes">
+            <!-- Coloque mais informações aqui, se necessário -->
+        </div>
+    </div>
+
+    <!-- Hidrômetro 3 (copie e cole conforme necessário) -->
+    <div class="hidrometro">
+        <h2>Hidrômetro 3</h2>
+        <p>Senha: 456</p>
+        <p>Status: Ativo</p>
+        <p>Consumo atual: 75 Litros</p>
+        <button class="btn-ligar">Ligar</button>
+        <button class="btn-desligar">Desligar</button>
+        <div class="informacoes">
+            <!-- Coloque mais informações aqui, se necessário -->
+        </div>
+    </div>
+</body>
+
+</html>
